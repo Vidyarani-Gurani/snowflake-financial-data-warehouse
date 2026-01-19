@@ -10,6 +10,23 @@ for financial transaction analytics.
 - AWS S3
 - Unix/Linux
 
+ ## Project Structure
+
+snowflake-financial-data-warehouse/
+├── README.md
+├── schema_design.sql
+├── fact_dimension_tables.sql
+├── analytical_queries.sql
+
+##  Data Flow
+ Source Data (AWS S3)  
+→ Staging Tables  
+→ Dimension Tables  
+→ Fact Tables  
+→ Reporting & Analytics
+
+
+
 ## Key Features
 - Star and Snowflake schema design
 - Fact and dimension tables
