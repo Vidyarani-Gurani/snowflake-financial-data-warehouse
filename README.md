@@ -1,2 +1,19 @@
-# snowflake-financial-data-warehouse
-Designed a Snowflake-based data warehouse for financial transaction analysis. Built fact and dimension tables using Star/Snowflake schema, developed SQL transformations, performed data validation and reconciliation, and wrote analytical queries using joins, CTEs, aggregations, and window functions for reporting.
+# Snowflake Financial Data Warehouse
+
+## Overview
+This project demonstrates the design and implementation of a Snowflake-based data warehouse
+for financial transaction analytics.
+
+## Tools & Technologies
+- Snowflake
+- SQL
+- AWS S3
+- Unix/Linux
+
+## Key Features
+- Star and Snowflake schema design
+- Fact and dimension tables
+- SQL-based transformations
+- Data validation and reconciliation
+- Analytical queries using CTEs and window functions
+
