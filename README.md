@@ -41,12 +41,23 @@ snowflake-financial-data-warehouse/
 3. Run `fact_dimension_tables.sql` to create fact and dimension tables.
 4. Load sample data into staging tables.
 5. Execute `analytical_queries.sql` to generate insights.
-   
- ## Sample Insights Generated
 
+## Sample Insights Generated
 - Total transaction amount by customer
 - Monthly transaction trends
 - High-value customers based on transaction volume
+
+ ## Data Ingestion Example
+Data can be loaded from AWS S3 into Snowflake staging tables using:
+
+```sql
+COPY INTO staging_transactions
+FROM 's3://bucket-name/transactions/'
+FILE_FORMAT = (TYPE = 'CSV');
+## Sample Insights Generated
+
+
+
 
 
 
