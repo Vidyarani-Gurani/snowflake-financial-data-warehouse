@@ -34,3 +34,19 @@ snowflake-financial-data-warehouse/
 - Data validation and reconciliation
 - Analytical queries using CTEs and window functions
 
+
+## How to Run This Project
+1. Create a Snowflake database and schemas.
+2. Execute `schema_design.sql` to set up schemas.
+3. Run `fact_dimension_tables.sql` to create fact and dimension tables.
+4. Load sample data into staging tables.
+5. Execute `analytical_queries.sql` to generate insights.
+   
+ ## Sample Insights Generated
+
+- Total transaction amount by customer
+- Monthly transaction trends
+- High-value customers based on transaction volume
+
+
+
